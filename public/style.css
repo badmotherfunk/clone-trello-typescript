@@ -115,7 +115,7 @@ form {
 }
 
 .validation-msg {
-    font-display: block;
+    display: block;
     color: crimson;
     font-size: 16px;
     padding: 5px 0;
