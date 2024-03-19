@@ -38,7 +38,7 @@ nav a {
     padding: 10px;
     width: 300px;
     background: #f1f1f1;
-    border-radius: 3px;
+    border-radius: 5px;
     margin: 10px;
     cursor: move;
     align-self: flex-start;
@@ -64,10 +64,14 @@ nav a {
 }
 
 .item {
-    padding: 15px 5px;
+    padding: 15px 10px;
     margin: 10px 0;
     background: #FFFFFF;
+    border-radius: 5px;
     box-shadow: 0 4px 1px rgba(0,0,0,0.2);
+    color: rgb(107, 107, 107);
+    font-weight: 600;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,6 +89,7 @@ nav a {
     font-weight: 600;
     border: none;
     cursor: pointer;
+    border-radius: 3px;
 }
 .add-item-btn:hover {
     background: #dfdede;
@@ -143,6 +148,7 @@ button[type="submit"] {
     font-weight: 600;
     border: none;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 /* Add New Container */
@@ -169,6 +175,7 @@ button[type="submit"] {
     font-weight: 600;
     border: none;
     cursor: pointer;
+    border-radius: 3px;
 }
 .add-container-btn:hover {
     background: #dfdede;
